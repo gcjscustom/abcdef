@@ -13,15 +13,13 @@ import java.util.Map;
 @RequestMapping("/userController")
 public class UserController {
 
-
-	
     @ResponseBody
     @RequestMapping("/index")
     public Map<String,Object> index(@RequestParam(value = "count",defaultValue = "5") int threadCount){
 
         Map<String,Object> map = new HashMap<>();
         map.put("hello","world");
-        map.put("version",9.0);
+        map.put("version",8.0);
    
         long startTime=System.currentTimeMillis();
         int count = threadCount;
