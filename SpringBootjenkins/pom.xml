@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>gcjs.spring</groupId>
-	<artifactId>SpringBootjenkinsDockerMaven</artifactId>
+	<artifactId>SpringBootjenkins</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringBootjenkinsDockerMaven</name>
+	<name>SpringBootjenkins</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
