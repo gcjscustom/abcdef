@@ -18,7 +18,7 @@ public class UserController {
     public Map<String,Object> index(@RequestParam(value = "count",defaultValue = "5") int threadCount){
 
         Map<String,Object> map = new HashMap<>();
-        map.put("hello","world");
+        map.put("hello","精通Java微服务 ");
         map.put("version",8.0);
    
         long startTime=System.currentTimeMillis();
